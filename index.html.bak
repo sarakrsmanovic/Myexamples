@@ -1,1 +1,11 @@
-my first note
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>My first web page</title>
+</head>
+
+<body>
+Hello world!
+</body>
+</html>
