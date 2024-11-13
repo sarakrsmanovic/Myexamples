@@ -30,13 +30,13 @@
     private void Plus2(){
         number+=2;
         message+= "\n" + number;
-        if(number <100){
+        if(number<100){
             comparsionResult = number + "less than 100!";
         }
-        else if(number ==100){
-            comparsionResult= number + "100";
+        if(number ==100){
+            comparsionResult= number + "equals to 100";
         }
-        else if(number>100){
+        if(number>100){
             comparsionResult= number + "more than 100!";
         }
     }
@@ -52,9 +52,10 @@
     {
         number*=2;
         message+="\n" + number;
-                if(number <100){
+        if(number <100){
             comparsionResult = number + "less than 100!";
         }
+
     }
         private void Divide2()
     {
